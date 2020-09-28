@@ -3,24 +3,28 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>mall-parent</artifactId>
+        <artifactId>mall-service</artifactId>
         <groupId>com.mall</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>mall-service</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>mall-service-goods</module>
-        <module>mall-service-file</module>
-    </modules>
+    <description>文件管理微服务</description>
+    <artifactId>mall-service-file</artifactId>
 
     <dependencies>
+        <!--fastdfs client-->
+        <dependency>
+            <groupId>net.oschina.zcx7878</groupId>
+            <artifactId>fastdfs-client-java</artifactId>
+            <version>1.27.0.0</version>
+        </dependency>
         <dependency>
             <groupId>com.mall</groupId>
-            <artifactId>mall-common-db</artifactId>
+            <artifactId>mall-common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
+
+
 </project>
