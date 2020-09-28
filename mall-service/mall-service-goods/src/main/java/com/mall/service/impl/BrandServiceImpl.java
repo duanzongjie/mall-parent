@@ -3,18 +3,17 @@ package com.mall.service.impl;
 import com.mall.dao.BrandMapper;
 import com.mall.goods.pojo.Brand;
 import com.mall.service.BrandService;
-import entity.Result;
-import entity.StatusCode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import tk.mybatis.mapper.entity.Example;
 
 import java.util.List;
+import java.util.Map;
 
 
 @Service
-public class BrandServiceImpl implements BrandService{
+public class BrandServiceImpl implements BrandService {
 
     @Autowired
     private BrandMapper brandMapper;
@@ -61,8 +60,14 @@ public class BrandServiceImpl implements BrandService{
     * 多条件搜索，条件自定义
     * */
     @Override
-    public List<Brand> findList(Example example) {
+    public List<Brand> findList(Brand brand) {
+        Example example=  this.createExample(brand);
         return brandMapper.selectByExample(example);
+    }
+
+    @Override
+    public List<Map> findListByCategoryName(String categoryName) {
+        return brandMapper.findListByCategoryName(categoryName);
     }
 
 

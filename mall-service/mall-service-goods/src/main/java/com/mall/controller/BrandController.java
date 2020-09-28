@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping(value = "/brand")
@@ -83,6 +84,15 @@ public class BrandController {
     public Result<List<Brand>> findList(@RequestBody Brand brand){
          List<Brand> brands= brandService.findList(brand);
         return new Result<>(true, StatusCode.OK,"条件搜索成功" ,brands);
+    }
+
+    /*
+     *根据品牌名称查询
+     * */
+    @GetMapping("/category/{category}")
+    public Result findListByCategory(@PathVariable(value = "category") String category){
+        List<Map> brandList=brandService.findListByCategoryName(category);
+        return new Result(true,StatusCode.OK,"查询成功",brandList);
     }
 
 }

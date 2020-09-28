@@ -1,9 +1,9 @@
 package com.mall.service;
 
 import com.mall.goods.pojo.Brand;
-import tk.mybatis.mapper.entity.Example;
 
 import java.util.List;
+import java.util.Map;
 
 public interface BrandService {
 
@@ -42,6 +42,11 @@ public interface BrandService {
     * 多条件搜索
     * @Param brand
     * */
-    public List<Brand> findList(Example example);
+    public List<Brand> findList(Brand brand);
+
+    /*
+    * 根据分类名称查询品牌
+    * */
+    public List<Map> findListByCategoryName(String categoryName);
 
 }
