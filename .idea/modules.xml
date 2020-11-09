@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/code-template-master/code-template.iml" filepath="$PROJECT_DIR$/code-template-master/code-template.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-common/mall-common.iml" filepath="$PROJECT_DIR$/mall-common/mall-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-common-db/mall-common-db.iml" filepath="$PROJECT_DIR$/mall-common-db/mall-common-db.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-eureka/mall-eureka.iml" filepath="$PROJECT_DIR$/mall-eureka/mall-eureka.iml" />
@@ -9,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/mall-parent.iml" filepath="$PROJECT_DIR$/mall-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-service/mall-service.iml" filepath="$PROJECT_DIR$/mall-service/mall-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-service-api/mall-service-api.iml" filepath="$PROJECT_DIR$/mall-service-api/mall-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-service/mall-service-file/mall-service-file.iml" filepath="$PROJECT_DIR$/mall-service/mall-service-file/mall-service-file.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-service/mall-service-goods/mall-service-goods.iml" filepath="$PROJECT_DIR$/mall-service/mall-service-goods/mall-service-goods.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-service-api/mall-service-goods-api.iml" filepath="$PROJECT_DIR$/mall-service-api/mall-service-goods-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-service-api/mall-service-gooods-api.iml" filepath="$PROJECT_DIR$/mall-service-api/mall-service-gooods-api.iml" />

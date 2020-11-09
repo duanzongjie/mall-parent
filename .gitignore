@@ -1,2 +1,4 @@
 
 *.xml
+*.class
+mall-service/mall-service-goods/target/classes/com/mall/controller/BrandController.class

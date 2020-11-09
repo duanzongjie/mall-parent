@@ -1,14 +1,12 @@
 server:
-  port: 18081
+  port: 8083
 spring:
   application:
-    name: goods
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://47.110.35.133:3306/mall_goods?useUnicode=true&characterEncoding=UTF8&serverTimezone=GMT%2B8
-    username: root
-    password: 123456
-
+    name: mall-service-file
+  servlet:
+    multipart:
+      max-request-size: 10MB
+      max-file-size: 10MB
 eureka:
   client:
     service-url:
