@@ -1,4 +1,4 @@
-package com.mall.pojo;
+package com.mall.goods.pojo;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

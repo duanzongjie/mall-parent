@@ -1,4 +1,4 @@
-package com.mall.service;
+package com.mall.goods.service;
 
 import com.github.pagehelper.PageInfo;
 import com.mall.goods.pojo.Album;

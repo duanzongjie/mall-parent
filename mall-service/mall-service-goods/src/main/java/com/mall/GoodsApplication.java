@@ -8,7 +8,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 
 @SpringBootApplication
 @EnableEurekaClient  //开启eureka客户端
-@MapperScan(basePackages="com.mall.dao")    //开始mapper扫描
+@MapperScan(basePackages="com.mall.goods.dao")    //开始mapper扫描
 public class GoodsApplication {
 
     public static void main(String args[]){

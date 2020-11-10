@@ -1,7 +1,11 @@
-package com.mall.feign;
+package com.mall.goods.feign;
+import com.github.pagehelper.PageInfo;
+import com.mall.goods.pojo.Spec;
 import entity.Result;
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 /****
  * @Author:shenkunlin

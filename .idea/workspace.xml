@@ -2,14 +2,158 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="422e3803-48cf-46b8-815b-29076f9b1f5e" name="Default" comment="uduan">
-      <change beforePath="" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/swagger/swagger.json" />
-      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/itheima/CodeApplication.java" afterPath="$PROJECT_DIR$/code-template-master/src/main/java/com/itheima/CodeApplication.java" />
-      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/itheima/code/build/TemplateBuilder.java" afterPath="$PROJECT_DIR$/code-template-master/src/main/java/com/itheima/code/build/TemplateBuilder.java" />
-      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/controller/BrandController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/controller/MallExceptionHandler.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/dao/BrandMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/service/BrandService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/service/impl/BrandServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/controller/AlbumController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/controller/BrandController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/controller/CategoryBrandController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/controller/CategoryController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/controller/ParaController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/controller/PrefController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/controller/SkuController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/controller/SpecController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/controller/SpuController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/controller/StockBackController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/controller/TemplateController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/controller/UndoLogController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/dao/AlbumMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/dao/BrandMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/dao/CategoryBrandMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/dao/CategoryMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/dao/ParaMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/dao/PrefMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/dao/SkuMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/dao/SpecMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/dao/SpuMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/dao/StockBackMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/dao/TemplateMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/dao/UndoLogMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/feign/AlbumFeign.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/feign/BrandFeign.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/feign/CategoryBrandFeign.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/feign/CategoryFeign.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/feign/ParaFeign.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/feign/PrefFeign.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/feign/SkuFeign.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/feign/SpecFeign.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/feign/SpuFeign.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/feign/StockBackFeign.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/feign/TemplateFeign.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/feign/UndoLogFeign.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/pojo/Album.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/pojo/Brand.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/pojo/Category.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/pojo/CategoryBrand.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/pojo/Para.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/pojo/Pref.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/pojo/Sku.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/pojo/Spec.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/pojo/Spu.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/pojo/StockBack.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/pojo/Template.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/pojo/UndoLog.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/service/AlbumService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/service/BrandService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/service/CategoryBrandService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/service/CategoryService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/service/ParaService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/service/PrefService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/service/SkuService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/service/SpecService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/service/SpuService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/service/StockBackService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/service/TemplateService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/service/UndoLogService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/service/impl/AlbumServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/service/impl/BrandServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/service/impl/CategoryBrandServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/service/impl/CategoryServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/service/impl/ParaServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/service/impl/PrefServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/service/impl/SkuServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/service/impl/SpecServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/service/impl/SpuServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/service/impl/StockBackServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/service/impl/TemplateServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/service/impl/UndoLogServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/swagger/swagger.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/GoodsApplication.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/GoodsApplication.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/AlbumController.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/AlbumController.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/BrandController.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/BrandController.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/CategoryBrandController.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/CategoryBrandController.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/CategoryController.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/CategoryController.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/ParaController.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/ParaController.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/PrefController.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/PrefController.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/SkuController.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/SkuController.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/SpecController.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/SpecController.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/SpuController.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/SpuController.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/StockBackController.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/StockBackController.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/TemplateController.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/TemplateController.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/UndoLogController.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/UndoLogController.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/AlbumMapper.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/AlbumMapper.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/BrandMapper.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/BrandMapper.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/CategoryBrandMapper.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/CategoryBrandMapper.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/CategoryMapper.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/CategoryMapper.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/ParaMapper.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/ParaMapper.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/PrefMapper.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/PrefMapper.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/SkuMapper.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/SkuMapper.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/SpecMapper.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/SpecMapper.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/SpuMapper.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/SpuMapper.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/StockBackMapper.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/StockBackMapper.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/TemplateMapper.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/TemplateMapper.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/UndoLogMapper.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/UndoLogMapper.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/AlbumFeign.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/AlbumFeign.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/BrandFeign.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/BrandFeign.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/CategoryBrandFeign.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/CategoryBrandFeign.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/CategoryFeign.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/CategoryFeign.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/ParaFeign.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/ParaFeign.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/PrefFeign.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/PrefFeign.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/SkuFeign.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/SkuFeign.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/SpecFeign.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/SpecFeign.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/SpuFeign.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/SpuFeign.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/StockBackFeign.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/StockBackFeign.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/TemplateFeign.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/TemplateFeign.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/UndoLogFeign.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/UndoLogFeign.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Album.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Album.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Brand.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Brand.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Category.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Category.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/CategoryBrand.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/CategoryBrand.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Para.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Para.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Pref.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Pref.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Sku.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Sku.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Spec.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Spec.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Spu.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Spu.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/StockBack.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/StockBack.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Template.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Template.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/UndoLog.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/UndoLog.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/AlbumService.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/AlbumService.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/BrandService.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/BrandService.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/CategoryBrandService.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/CategoryBrandService.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/CategoryService.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/CategoryService.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/ParaService.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/ParaService.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/PrefService.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/PrefService.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/SkuService.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/SkuService.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/SpecService.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/SpecService.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/SpuService.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/SpuService.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/StockBackService.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/StockBackService.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/TemplateService.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/TemplateService.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/UndoLogService.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/UndoLogService.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/AlbumServiceImpl.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/AlbumServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/BrandServiceImpl.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/BrandServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/CategoryBrandServiceImpl.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/CategoryBrandServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/CategoryServiceImpl.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/CategoryServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/ParaServiceImpl.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/ParaServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/PrefServiceImpl.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/PrefServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/SkuServiceImpl.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/SkuServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/SpecServiceImpl.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/SpecServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/SpuServiceImpl.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/SpuServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/StockBackServiceImpl.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/StockBackServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/TemplateServiceImpl.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/TemplateServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/UndoLogServiceImpl.java" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/UndoLogServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/target/classes/application.yml" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/target/classes/application.yml" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/target/classes/com/mall/GoodsApplication.class" afterPath="$PROJECT_DIR$/mall-service/mall-service-goods/target/classes/com/mall/GoodsApplication.class" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/target/classes/com/mall/controller/BrandController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/target/classes/com/mall/dao/BrandMapper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/target/classes/com/mall/service/BrandService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mall-service/mall-service-goods/target/classes/com/mall/service/impl/BrandServiceImpl.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,8 +189,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AlbumMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/AlbumMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlbumServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/AlbumServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Album.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Album.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BrandController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/BrandController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="42" column="76" lean-forward="true" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/GoodsApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BrandMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/BrandMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="swagger.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/swagger/swagger.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-31043">
+              <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mall-eureka/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -55,21 +283,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CodeApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code-template-master/src/main/java/com/itheima/CodeApplication.java">
+      <file leaf-file-name="EurekaApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mall-eureka/src/main/java/com/mall/EurekaApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TemplateBuilder.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/code-template-master/src/main/java/com/itheima/code/build/TemplateBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="87" column="13" lean-forward="true" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+            <state relative-caret-position="225">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -105,48 +323,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/mall-getway/pom.xml" />
-        <option value="$PROJECT_DIR$/mall-web/pom.xml" />
-        <option value="$PROJECT_DIR$/mall-eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/mall-eureka/src/main/resources/application.xml" />
-        <option value="$PROJECT_DIR$/mall-eureka/src/main/java/EurekaApplication.java" />
-        <option value="$PROJECT_DIR$/mall-eureka/src/main/java/com/mall/EurekaApplication.java" />
-        <option value="$PROJECT_DIR$/mall-common/pom.xml" />
-        <option value="$PROJECT_DIR$/mall-common-db/pom.xml" />
-        <option value="$PROJECT_DIR$/mall-service-api/mall-services-goods-api/src/main/java/com.mall.good.pojo/Album.java" />
-        <option value="$PROJECT_DIR$/mall-service-api/mall-services-goods-api/src/main/java/com.mall.good.pojo/Brand.java" />
-        <option value="$PROJECT_DIR$/mall-service-api/mall-services-goods-api/src/main/java/com/mall/goods/pojo/Brand.java" />
-        <option value="$PROJECT_DIR$/mall-service-api/pom.xml" />
-        <option value="$PROJECT_DIR$/mall-service-api/mall-services-goods-api/src/main/java/com/mall/goods/pojo/Album.java" />
-        <option value="$PROJECT_DIR$/mall-service/pom.xml" />
-        <option value="$PROJECT_DIR$/mall-eureka/src/main/java/com/mall/service/impl/BrandService.java" />
-        <option value="$PROJECT_DIR$/mall-eureka/src/main/java/com/mall/service/BrandService.java" />
-        <option value="$PROJECT_DIR$/mall-eureka/src/main/java/com/mall/service/impl/BrandServiceImpl.java" />
-        <option value="$PROJECT_DIR$/mall-eureka/src/main/java/com/mall/controller/BrandController.java" />
-        <option value="$PROJECT_DIR$/mall-eureka/src/main/java/com/mall/dao/BrandMapper.java" />
-        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/mall/controller/BrandController.java" />
-        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/pom.xml" />
-        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/dao/BrandMapper.java" />
-        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/GoodsApplication.java" />
-        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/target/classes/application.yml" />
-        <option value="$PROJECT_DIR$/mall-eureka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/service/BrandService.java" />
-        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/controller/BrandController.java" />
-        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/service/impl/BrandServiceImpl.java" />
-        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/controller/MallExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/mall-service/mall-service-file/pom.xml" />
-        <option value="$PROJECT_DIR$/mall-service/mall-service-file/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/mall-service/mall-service-file/src/main/java/com/mall/file/MallFileApplication.java" />
-        <option value="$PROJECT_DIR$/mall-service/mall-service-file/src/main/java/com/mall/pojo/FastDFSFile.java" />
-        <option value="$PROJECT_DIR$/mall-service/mall-service-file/src/main/java/com/mall/MallFileApplication.java" />
-        <option value="$PROJECT_DIR$/mall-service/mall-service-file/src/main/java/com/mall/file/util/FastDFSFile.java" />
-        <option value="$PROJECT_DIR$/mall-service/mall-service-file/src/main/java/com/mall/file/FastDfsFile.java" />
-        <option value="$PROJECT_DIR$/mall-service/mall-service-file/src/main/java/com/mall/controller/FastDfsController.java" />
-        <option value="$PROJECT_DIR$/mall-service/mall-service-file/src/main/java/com/mall/util/FastDfsUtil.java" />
-        <option value="$PROJECT_DIR$/mall-service/mall-service-file/src/main/resources/fastdfs_client.conf" />
-        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/code-template-master/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/code-template-master/pom.xml" />
         <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/controller/TemplateController.java" />
         <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/service/StockBackService.java" />
@@ -155,6 +331,49 @@
         <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/feign/PrefFeign.java" />
         <option value="$PROJECT_DIR$/code-template-master/src/main/java/com/itheima/CodeApplication.java" />
         <option value="$PROJECT_DIR$/code-template-master/src/main/java/com/itheima/code/build/TemplateBuilder.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/BrandServiceImpl.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/BrandService.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/AlbumService.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/CategoryBrandService.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/CategoryService.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/ParaService.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/PrefService.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/SkuService.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/SpecService.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/SpuService.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/StockBackService.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/TemplateService.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/UndoLogService.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Album.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Brand.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Category.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/CategoryBrand.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Para.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Pref.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Sku.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Spec.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Spu.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/StockBack.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Template.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/UndoLog.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/AlbumServiceImpl.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/SkuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/SpuController.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/PrefFeign.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/BrandFeign.java" />
+        <option value="$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/dao/BrandMapper.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/AlbumFeign.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/CategoryBrandFeign.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/ParaFeign.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/SpecFeign.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/CategoryFeign.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/SkuFeign.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/SpuFeign.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/StockBackFeign.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/TemplateFeign.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/UndoLogFeign.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/AlbumMapper.java" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/GoodsApplication.java" />
       </list>
     </option>
   </component>
@@ -185,7 +404,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="1547" />
     <option name="height" value="837" />
@@ -213,6 +432,119 @@
             <path>
               <item name="mall-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="mall-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="code-template-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="code-template-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="code-template-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="code-template-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="code-template-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="mall-eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="mall-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="mall-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="mall-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="mall-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="mall-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="mall-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="mall-service" type="462c0819:PsiDirectoryNode" />
+              <item name="mall-service-goods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="mall-service" type="462c0819:PsiDirectoryNode" />
+              <item name="mall-service-goods" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="mall-service" type="462c0819:PsiDirectoryNode" />
+              <item name="mall-service-goods" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="mall-service" type="462c0819:PsiDirectoryNode" />
+              <item name="mall-service-goods" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -242,11 +574,11 @@
       <recent name="com.mall" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\demo2\mall-parent\mall-service\mall-service-goods\src\main\java\com\mall\goods\controller" />
+      <recent name="E:\demo2\mall-parent\mall-service\mall-service-goods\src\main\java\com\mall\goods\dao" />
+      <recent name="E:\demo2\mall-parent\mall-service\mall-service-goods\src\main\java\com\mall\goods\feign" />
+      <recent name="E:\demo2\mall-parent\mall-service\mall-service-goods\src\main\java\com\mall\goods\service\impl" />
       <recent name="E:\demo2\mall-parent\mall-service\mall-service-goods\src\main\java\com\mall\swagger" />
-      <recent name="E:\demo2\mall-parent\mall-service\mall-service-goods\src\main\java\com\mall\feign" />
-      <recent name="E:\demo2\mall-parent\mall-service\mall-service-goods\src\main\java\com\mall\pojo" />
-      <recent name="E:\demo2\mall-parent\mall-service\mall-service-goods\src\main\java\com\mall\dao" />
-      <recent name="E:\demo2\mall-parent\mall-service\mall-service-goods\src\main\java\com\mall\service\impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -261,7 +593,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CodeApplication">
+  <component name="RunManager" selected="Spring Boot.GoodsApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -356,10 +688,10 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.CodeApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.MallFileApplication" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.EurekaApplication" />
-        <item index="3" class="java.lang.String" itemvalue="Spring Boot.GoodsApplication" />
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.GoodsApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.EurekaApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CodeApplication" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.MallFileApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -384,15 +716,15 @@
       <workItem from="1602194313915" duration="9509000" />
       <workItem from="1603753426042" duration="132000" />
       <workItem from="1604269755057" duration="3246000" />
-      <workItem from="1604835481422" duration="5259000" />
+      <workItem from="1604835481422" duration="7326000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44206000" />
+    <option name="totallyTimeSpent" value="46273000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -435,7 +767,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39933258" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39933258" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -445,7 +777,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31034482" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1652452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23240939" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -501,7 +833,7 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/service/CategoryService.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/TemplateMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -509,7 +841,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/service/TemplateService.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/SkuMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -517,7 +849,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/service/UndoLogService.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/ParaMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -525,7 +857,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/service/BrandService.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/UndoLogController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -533,7 +865,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/service/ParaService.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/SkuController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -541,7 +873,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/service/PrefService.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/StockBackController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -549,7 +881,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/service/SpuService.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/CategoryBrandController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -557,7 +889,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/service/StockBackService.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/AlbumController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -565,7 +897,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/service/impl/SpecServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/ParaController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -573,7 +905,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/service/impl/CategoryServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/PrefController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -581,7 +913,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/service/impl/BrandServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/TemplateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/SpuController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -589,7 +929,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/service/impl/UndoLogServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/dao/CategoryBrandMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/dao/BrandMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-template-master/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -597,314 +953,319 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/service/impl/PrefServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/BrandFeign.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="546">
+          <caret line="72" column="16" lean-forward="true" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/service/impl/SkuServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/CategoryBrandFeign.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="250">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/service/impl/CategoryBrandServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/ParaFeign.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="250">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/service/impl/StockBackServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/PrefFeign.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="191">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/service/impl/TemplateServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/SpecFeign.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="250">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/service/impl/AlbumServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Brand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="275">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/dao/SkuMapper.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Category.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="275">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/dao/SpecMapper.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/CategoryBrand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="275">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/dao/ParaMapper.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Para.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="275">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/dao/PrefMapper.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Pref.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="275">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/dao/CategoryMapper.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Sku.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="275">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/dao/SpuMapper.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Spec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="275">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/dao/UndoLogMapper.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Spu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="275">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/dao/TemplateMapper.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/StockBack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="275">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/dao/CategoryBrandMapper.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/UndoLog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="275">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/dao/StockBackMapper.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/AlbumFeign.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="25">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/pojo/CategoryBrand.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/CategoryFeign.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/pojo/Category.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/SkuFeign.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-500">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/SpuFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/pojo/UndoLog.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/StockBackFeign.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="250">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/pojo/Spu.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Template.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="200">
+          <caret line="15" column="46" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/pojo/Para.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/TemplateFeign.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-150">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/feign/UndoLogFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/pojo/Sku.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2.jar!/com/github/pagehelper/page/PageMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="290">
+          <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+          <folding>
+            <marker date="1595130016720" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1595130016720" expanded="false" signature="150:265" ph="..." />
+            <marker date="1595130016720" expanded="true" signature="404:411" ph="{}" />
+            <marker date="1595130016720" expanded="false" signature="462:473" ph=" { " />
+            <marker date="1595130016720" expanded="false" signature="494:500" ph=" }" />
+            <marker date="1595130016720" expanded="false" signature="546:557" ph=" { " />
+            <marker date="1595130016720" expanded="false" signature="587:593" ph=" }" />
+            <marker date="1595130016720" expanded="false" signature="629:640" ph=" { " />
+            <marker date="1595130016720" expanded="false" signature="660:666" ph=" }" />
+            <marker date="1595130016720" expanded="true" signature="713:826" ph="{...}" />
+            <marker date="1595130016720" expanded="true" signature="883:1172" ph="{...}" />
+            <marker date="1595130016720" expanded="true" signature="1240:1251" ph=" { " />
+            <marker date="1595130016720" expanded="true" signature="1293:1299" ph=" }" />
+            <marker date="1595130016720" expanded="true" signature="1383:1472" ph="{...}" />
+            <marker date="1595130016720" expanded="true" signature="1557:1672" ph="{...}" />
+            <marker date="1595130016720" expanded="true" signature="1798:2159" ph="{...}" />
+            <marker date="1595130016720" expanded="false" signature="2224:2235" ph=" { " />
+            <marker date="1595130016720" expanded="false" signature="2274:2280" ph=" }" />
+            <marker date="1595130016720" expanded="true" signature="2361:2645" ph="{...}" />
+            <marker date="1595130016720" expanded="true" signature="2694:2974" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/BrandServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/pojo/StockBack.java">
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/pojo/Album.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/pojo/Spec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/pojo/Album.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/pojo/Pref.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/feign/CategoryFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/feign/UndoLogFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/feign/AlbumFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/feign/SpuFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/feign/StockBackFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/feign/ParaFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/feign/SkuFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/feign/TemplateFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/feign/CategoryBrandFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/feign/PrefFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="100">
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/swagger/swagger.json">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31043">
+          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code-template-master/src/main/java/com/itheima/CodeApplication.java">
+    <entry file="file://$PROJECT_DIR$/code-template-master/src/main/java/com/mall/goods/service/ParaService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="50">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code-template-master/src/main/java/com/itheima/code/build/TemplateBuilder.java">
+    <entry file="file://$PROJECT_DIR$/mall-eureka/src/main/java/com/mall/EurekaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="87" column="13" lean-forward="true" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+        <state relative-caret-position="225">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/service/impl/AlbumServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/AlbumMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/GoodsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/dao/BrandMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-service/mall-service-goods/src/main/java/com/mall/goods/controller/BrandController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="42" column="76" lean-forward="true" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
           <folding />
         </state>
       </provider>

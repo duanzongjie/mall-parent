@@ -1,4 +1,4 @@
-package com.mall.controller;
+package com.mall.goods.controller;
 
 import com.github.pagehelper.PageInfo;
 import com.mall.goods.pojo.Sku;
