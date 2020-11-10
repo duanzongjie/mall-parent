@@ -84,7 +84,7 @@ public class TemplateBuilder {
     /***
      * 模板构建
      */
-    public static void builder(String dataSource){
+    public static void builder(){
         try {
             //获取数据库连接
             Connection conn = DriverManager.getConnection(props.getProperty("url"),props.getProperty("uname"),props.getProperty("pwd"));
@@ -127,7 +127,9 @@ public class TemplateBuilder {
                     while (keySet.next()){
                         key=keySet.getString(4);
                     }
-
+                    if("".equals(key)){
+                        continue;
+                    }
                     //构建SwaggerModel对象
                     SwaggerModel swaggerModel = new SwaggerModel();
                     swaggerModel.setName(Table);
