@@ -4,13 +4,18 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.mall.goods.dao.BrandMapper;
 import com.mall.goods.pojo.Brand;
+import com.mall.goods.redisConf.RedisConfig;
 import com.mall.goods.service.BrandService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import tk.mybatis.mapper.entity.Example;
 
+import javax.annotation.Resource;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /****
  * @Author:shenkunlin
@@ -22,6 +27,9 @@ public class BrandServiceImpl implements BrandService {
 
     @Autowired
     private BrandMapper brandMapper;
+
+    @Resource
+    private RedisTemplate redisTemplate;
 
 
     /**
@@ -136,7 +144,18 @@ public class BrandServiceImpl implements BrandService {
      */
     @Override
     public Brand findById(Integer id){
-        return  brandMapper.selectByPrimaryKey(id);
+
+        ValueOperations<String ,Brand> operations=redisTemplate.opsForValue();
+        String key = "city_" + id ;
+        //缓存当中取
+        boolean hasKey=redisTemplate.hasKey(key);
+        if(hasKey){
+            Brand brand=operations.get(key);
+            return brand;
+        }
+        Brand brand=brandMapper.selectByPrimaryKey(id);
+        operations.set(key,brand,10, TimeUnit.SECONDS);
+        return brand;
     }
 
     /**
